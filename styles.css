@@ -34,6 +34,21 @@ nav {
     width: 50%;
 }
 
+@media (max-width: 720px) {
+	nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+  
+
+ 
+    .menu {
+margin: 0 auto;
+    }
+}
+
 /* Contact */ 
 
 .contact {
@@ -63,7 +78,6 @@ button {
 /* Section Features */
 
 
-
 svg {
     width: 48px;
     fill: #ff8c00;
@@ -76,6 +90,16 @@ svg {
 
 .description {
     max-width: 800px;
+}
+
+@media (max-width: 720px) {
+	svg {
+        display: none;
+	}
+
+    .description {
+        text-align: center;
+    }
 }
 
 /* Section How it Works */
@@ -122,6 +146,16 @@ button.pricing-btn {
     font-weight: 400;
 }
 
+@media (max-width: 720px) {
+	#pricing {
+        display: block;
+	}
+
+    .pricing-card {
+        margin: 15px auto;
+    }
+}
+
 
 /*Footer*/
 
@@ -137,3 +171,13 @@ justify-content: flex-end;
 gap: 2em;
 }
 
+
+@media (max-width: 720px) {
+	footer {
+        text-align: center;
+    }
+
+    .footer-menu {
+        justify-content: center;
+    }
+}
