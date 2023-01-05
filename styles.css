@@ -1,17 +1,21 @@
 body {
     background-color: #eeeeee;
     margin: 0;
+    padding: 0;
 }
+
+
 
 .content {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-section {
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
+
+
+header {
+    margin-top: -20px;
+} 
 
 p { 
     margin: 0;
@@ -22,6 +26,10 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #eeeeee;
+    margin-top: 0;
 }
 
 #header-img {
@@ -74,6 +82,17 @@ button {
 
 }
 
+input[type=submit] {
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+    border: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+
+}
 
 /* Section Features */
 
