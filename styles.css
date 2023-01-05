@@ -1,5 +1,6 @@
 body {
     background-color: #eeeeee;
+    margin: 0;
 }
 
 .content {
@@ -7,6 +8,14 @@ body {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+p { 
+    margin: 0;
+}
 /* Navigation */
 
 nav {
@@ -69,6 +78,12 @@ svg {
     max-width: 800px;
 }
 
+/* Section How it Works */
+#works {
+display: flex;
+justify-content: center;
+}
+
 /* Section Pricing */
 
 
@@ -113,6 +128,7 @@ button.pricing-btn {
 footer {
     background-color: #dddddd;
     text-align: right;
+    margin-bottom: 0;
 }
 
 .footer-menu {
